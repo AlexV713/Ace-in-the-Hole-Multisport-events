@@ -1,4 +1,4 @@
-<?php define('BASE_URL', '/cas222/SoftLaunch/'); ?>
+<?php define('BASE_URL', '/repositories/Ace-in-the-Hole-Multisport-events/'); ?>
 
 <header>
     <a href="javascript:void(0);" class="icon" onclick="dropLinks()">
