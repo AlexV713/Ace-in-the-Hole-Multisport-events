@@ -196,22 +196,14 @@ select {
   border: solid #FF0000 2px;
   color: #FF0000;
   border-radius: 25%;
-  padding: 0.5em;
   cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 #submit:active {
   background: #FF0000;
   color: #000000;
-}
-#submit-contact {
-  background: #000000;
-  border: solid #FF0000 2px;
-  color: #FF0000;
-  border-radius: 25%;
-  padding: 0.5em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 #up-button {
   display: none;
@@ -409,6 +401,7 @@ footer p {
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 1fr));
     grid-gap: 15em;
+    justify-items: center;
     padding: 1em;
   }
   #register-grid {
@@ -417,11 +410,11 @@ footer p {
     padding: 1em;
   }
   #slideshow {
-    width: 45em;
+    width: 50em;
     height: 30em;
   }
   #slideshow img {
-    width: 45em;
+    width: 50em;
     height: 30em;
   }
   #socialmedia-feed,

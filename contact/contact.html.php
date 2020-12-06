@@ -44,7 +44,7 @@
                     <label for="volunteer">Volunteer</label><br>
                     <input type="radio" id="interestedParty" name="person" value="party">
                     <label for="interestedParty">Interested Party</label><br><br>
-                    <input id="submit-contact" type="submit" value="Submit">
+                    <input type="submit" value="Submit" id="submit">
                 </form>
 
             </div>

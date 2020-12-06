@@ -210,7 +210,8 @@ form {
     font-size: 1.5em;
 }
 
-input, select {
+input,
+select {
     height: 2em;
 }
 
@@ -227,8 +228,11 @@ input, select {
 }
 
 #submit {
-    .submit_properties(@black, @submit-border, @radius, @border-padding);
+    .submit_properties(@black, @submit-border, @radius);
     cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #submit:active {
@@ -236,31 +240,24 @@ input, select {
     color: @black;
 }
 
-#submit-contact {
-    .submit_properties(@black, @submit-border, @radius, @border-padding);
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 #up-button {
-    display: none; 
-    position: fixed; 
+    display: none;
+    position: fixed;
     bottom: 2em;
     right: 3em;
-    z-index: 99; 
-    border: none; 
-    outline: none; 
-    background-color: @red; 
-    color: @white; 
-    cursor: pointer; 
-    padding: 1em; 
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: @red;
+    color: @white;
+    cursor: pointer;
+    padding: 1em;
     border-radius: 50%;
-    font-size: 1.2em; 
+    font-size: 1.2em;
 }
 
 #up-button:hover {
-     opacity: 0.5;
+    opacity: 0.5;
 }
 
 footer {
@@ -481,6 +478,7 @@ footer p {
         display: grid;
         grid-template-columns: repeat(2, minmax(140px, 1fr));
         grid-gap: 15em;
+        justify-items: center;
         padding: 1em;
     }
 
@@ -496,7 +494,7 @@ footer p {
     }
 
     #slideshow img {
-        width: @maxwidth-desktop;
+        width: 50em;
         height: @maxheight-desktop;
     }
 

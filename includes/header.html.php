@@ -1,4 +1,4 @@
-<?php define('BASE_URL', '/repositories/Ace-in-the-Hole-Multisport-events/'); ?>
+<?php define('BASE_URL', '/Improved/Ace-in-the-Hole-Multisport-events/'); ?>
 
 <header>
     <a href="javascript:void(0);" class="icon" onclick="dropLinks()">

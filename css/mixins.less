@@ -18,7 +18,7 @@
 @maxheight-tablet: 25em;
 @maxwidth-tablet: 45em;
 @maxheight-desktop: 30em;
-@maxwidth-desktop: 45em;
+@maxwidth-desktop: 50em;
 
 @text-padding: 1em;
 
@@ -29,12 +29,10 @@
 /* Submit Button Properties */
 @submit-border: solid @red 2px;
 @radius: 25%;
-@border-padding: 0.5em;
 
-.submit_properties(@black, @submit-border, @radius, @border-padding) {
+.submit_properties(@black, @submit-border, @radius) {
     background: @black;
     border: @submit-border;
     color: @red;
     border-radius: @radius;
-    padding: 0.5em;
 }
