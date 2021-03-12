@@ -19,11 +19,11 @@
 
                 <div id="block1">
 
-                    <?php require_once("includes/slideshow.html.php"); ?>
+                <?php require_once("includes/slideshow.html.php"); ?>
 
                     <div id="text">
-                        <h2>Welcome!</h2>
-                        <p>Welcome to Ace in the Hole Multisport Events! Ace in the Hole Multisport Events is proud to
+                        <h2>Welcome to Ace in the Hole Multisport Events!</h2>
+                        <p> Ace in the Hole Multisport Events is proud to
                             offer running and triathlon events to athletes of all shapes and sizes, national origins,
                             gender identifications and cultural backgrounds. We offer Events for Every Body.</p>
 
@@ -51,18 +51,18 @@
                             </blockquote>
                         </div>
                     </div>
-
+                    <br>
+                    <div id="weather-feed">
+                        <a class="weatherwidget-io" href="https://forecast7.com/en/45d52n122d68/portland/?unit=us"
+                            data-label_1="PORTLAND" data-label_2="WEATHER" data-theme="original">PORTLAND WEATHER</a>
+                    </div>
+                    <br>
                     <div id="twitter-feed">
                         <a class="twitter-timeline" data-width="340" data-height="500"
                             href="https://twitter.com/pcccas222?ref_src=twsrc%5Etfw">Tweets by pcccas222</a>
                         <script async src="https://platform.twitter.com/widgets.js"></script>
                     </div>
 
-
-                    <div id="weather-feed">
-                        <a class="weatherwidget-io" href="https://forecast7.com/en/45d52n122d68/portland/?unit=us"
-                            data-label_1="PORTLAND" data-label_2="WEATHER" data-theme="original">PORTLAND WEATHER</a>
-                    </div>
 
                 </div>
 
