@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/cf72e27b3d.js" crossorigin="anonymous"></script>
 <script src="../scripts.js"></script>
-<title>Ace in the Hole Multisports Events</title>
+<title>Register</title>
 </head>
 
 <body>
