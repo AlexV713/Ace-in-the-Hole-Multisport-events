@@ -1,0 +1,560 @@
+@import "mixins.less";
+
+/* --- Mobile Stylesheets --- */
+body {
+    .body_properties(@body-padding, @body-margin);
+    overflow-x: hidden;
+    background-color: @black;
+}
+
+#wrapper {
+    padding: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+nav,
+#links,
+a,
+li,
+form,
+table,
+p {
+    color: @white;
+}
+
+h1,
+h2,
+h3,
+nav {
+    font-family: @anton;
+}
+
+form,
+li,
+table,
+label,
+p {
+    font-family: @roboto;
+}
+
+p,
+ul,
+li {
+    line-height: 1.5em;
+    font-size: 1.1em;
+}
+
+header {
+    padding: 0.5em;
+}
+
+#desktop-nav {
+    display: none;
+}
+
+#mobile-nav {
+    overflow: hidden;
+    position: relative;
+}
+
+#mobile-nav .logo {
+    object-fit: cover;
+    width: 175px;
+    height: 63px;
+}
+
+#mobile-nav #links {
+    display: none;
+    text-decoration: none;
+    padding-bottom: 0.5em;
+}
+
+#mobile-nav a {
+    text-decoration: none;
+    display: block;
+    font-size: 1.3em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+#quick-links a {
+    text-decoration: underline;
+    margin-right: 0.5em;
+    font-size: 1.1em;
+}
+
+.fa-bars {
+    color: @red;
+    float: right;
+    font-size: 3em;
+    position: relative;
+    right: 0.2em;
+    top: 0.1em;
+}
+
+.fa-bars:active {
+    opacity: 0.5;
+}
+
+#text {
+    padding-left: @text-padding;
+    padding-right: @text-padding;
+}
+
+.important {
+    color: @red;
+}
+
+.titles {
+    text-decoration: underline;
+}
+
+#socialmedia-feed,
+#twitter-feed,
+#weather-feed,
+#text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fb-page {
+    width: 25em;
+    height: 10em;
+    margin-left: 1em;
+}
+
+#twitter-feed {
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+#weather-feed {
+    max-width: @maxwidth-mobile;
+    max-height: @max-height-mobile;
+    margin-top: 1em;
+}
+
+.days {
+    text-align: center;
+}
+
+table {
+    table-layout: fixed;
+    margin: auto;
+    border: solid @white 2px;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+#saturdayTable,
+#sundayTable {
+    background: @white;
+    color: @black;
+    border: solid @black 2px;
+}
+
+#saturdayTable th {
+    border: solid @black 1px;
+    padding: 5px;
+}
+
+#saturdayTable td {
+    border: solid @black 1px;
+    padding: 5px;
+}
+
+#sundayTable th {
+    border: solid @black 1px;
+    padding: 5px;
+}
+
+#sundayTable td {
+    border: solid @black 1px;
+    padding: 5px;
+}
+
+#fees {
+    display: none;
+}
+
+td,
+th {
+    padding: 5px;
+    border: solid @white 1px;
+}
+
+td {
+    text-align: center;
+}
+
+#honeypot {
+    display: none;
+}
+
+/* Forms */
+
+#formBox {
+    display: block;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+input,
+select {
+    height: 2em;
+}
+
+.register-inputs {
+    width: 83%;
+}
+
+.register-inputs-selects {
+    width: 84%;
+}
+
+.contact-inputs {
+    width: 98%;
+}
+
+#submit {
+    .submit_properties(@black, @submit-border, @radius);
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#submit:active {
+    background: @red;
+    color: @black;
+}
+
+#up-button {
+    display: none;
+    position: fixed;
+    bottom: 2em;
+    right: 3em;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: @red;
+    color: @white;
+    cursor: pointer;
+    padding: 1em;
+    border-radius: 50%;
+    font-size: 1.2em;
+}
+
+#up-button:hover {
+    opacity: 0.5;
+}
+
+footer {
+    margin-top: 1em;
+    border-top: solid @red 2px;
+}
+
+footer p {
+    font-style: italic;
+    font-size: 0.7em;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+/* Mobile Slideshow */
+
+#slideshow {
+    width: @maxwidth-mobile;
+    height: @max-height-mobile;
+    position: relative;
+    margin: auto;
+    background-color: @black;
+    border: solid @white 1px;
+}
+
+#slideshow img {
+    width: @maxwidth-mobile;
+    height: @max-height-mobile;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
+#front {
+    display: inline;
+}
+
+.mySlides {
+    display: none;
+}
+
+.number {
+    color: @white;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    background: #0000008a;
+    color: @red;
+    font-weight: bold;
+    font-size: 2em;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:active,
+.next:active {
+    background-color: #cfcfcf;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* Tablet Stylesheets */
+
+@media only screen and (min-width: 481px) {
+
+    #mobile-nav {
+        margin-left: 1em;
+    }
+
+    .fa-bars {
+        margin-top: 0.1em;
+        margin-right: 0.1em;
+    }
+
+    #slideshow {
+        width: @maxwidth-tablet;
+        height: @maxheight-tablet;
+    }
+
+    #slideshow img {
+        width: @maxwidth-tablet;
+        height: @maxheight-tablet;
+    }
+
+    #socialmedia-feed {
+        position: relative;
+        left: 1em;
+    }
+
+    #weather-feed {
+        position: relative;
+        left: 12.5em;
+        bottom: 64em;
+    }
+
+    .fb-page {
+        width: 25em;
+        height: 10em;
+    }
+
+    #twitter-feed {
+        margin-left: 2em;
+    }
+
+    #weather-feed,
+    .weatherwidget-io {
+        width: 20em;
+        height: 20em;
+    }
+
+}
+
+/* Desktop Stylesheets */
+
+@media only screen and (min-width: 1025px) {
+
+    html,
+    body,
+    main {
+        .body_properties(@body-padding, @body-margin);
+    }
+
+    header {
+        padding: 0;
+    }
+
+    .days {
+        text-align: center;
+    }
+
+    #wrapper {
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+
+    #desktop-logo {
+        object-fit: contain;
+        height: 100px;
+        margin-top: 1em;
+    }
+
+    #desktop-nav {
+        display: flex;
+        display: -webkit-flex;
+        justify-content: flex-end;
+        -webkit-justify-content: flex-end;
+        align-items: center;
+        -webkit-align-items: center;
+        padding-left: 1em;
+        padding-right: 1em;
+        font-size: 1.3em;
+        border-bottom: solid @red 2px;
+    }
+
+    #desktop-nav .logo {
+        margin-right: auto;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    #desktop-nav a {
+        display: inline-block;
+        padding: 0px 20px;
+        text-decoration: none;
+    }
+
+    .icon,
+    .fa-bars,
+    #mobile-nav {
+        display: none;
+    }
+
+    #grid-items {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(140px, 1fr));
+        grid-gap: 15em;
+        justify-items: center;
+        padding: 1em;
+    }
+
+    #register-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(140px, 1fr));
+        padding: 1em;
+    }
+
+    #slideshow {
+        width: @maxwidth-desktop;
+        height: @maxheight-desktop;
+    }
+
+    #slideshow img {
+        width: 50em;
+        height: @maxheight-desktop;
+    }
+
+    #socialmedia-feed,
+    #weather-feed,
+    #text {
+        position: static;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #socialmedia-feed {
+        margin-left: 3em;
+    }
+
+    #twitter-feed {
+        margin-top: 1em;
+        margin-left: 4em;
+    }
+
+    #weather-feed {
+        margin-left: 4em;
+    }
+
+    .weatherwidget-io {
+        width: 21.4em;
+    }
+
+    #saturdayTable,
+    #sundayTable {
+        width: 70%;
+    }
+
+    #detailsList {
+        padding-left: 1em;
+    }
+
+    li {
+        margin: 1em 0;
+    }
+
+    input {
+        height: 1.5em;
+    }
+
+    #fees {
+        display: block;
+    }
+
+    #faq-heading {
+        text-align: left;
+    }
+
+    .questions {
+        text-decoration: underline;
+    }
+
+    footer {
+        margin-top: 3em;
+    }
+
+}
