@@ -2,6 +2,11 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+p,
+ul {
+  line-height: 1.5;
+}
+
 header {
   font-family: 'Noto Sans KR', sans-serif;
 }
@@ -106,6 +111,40 @@ header a {
   }
 }
 
+table {
+  table-layout: fixed;
+  margin: auto;
+  border: solid black 2px;
+  width: 90%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: solid black 1px;
+  padding: 5px;
+}
+
+table td {
+  text-align: center;
+}
+
+table .event {
+  color: red;
+}
+
+.titles {
+  text-decoration: underline;
+}
+
+.important {
+  color: red;
+}
+
+#earbuds li {
+  color: red;
+}
+
 #up-button {
   display: none;
   position: fixed;
@@ -130,6 +169,9 @@ header a {
   body {
     padding: 0;
     margin: 0;
+  }
+  .center-heading {
+    text-align: center;
   }
   header h1 {
     font-size: 2.5em;

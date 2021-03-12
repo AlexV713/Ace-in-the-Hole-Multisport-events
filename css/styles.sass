@@ -1,6 +1,10 @@
 body 
     font-family: 'Open Sans', sans-serif
 
+p,
+ul
+  line-height: 1.5 
+
 header 
     font-family: 'Noto Sans KR', sans-serif
     a 
@@ -76,6 +80,31 @@ header
   to 
     opacity: 1
 
+table 
+    table-layout: fixed
+    margin: auto
+    border: solid black 2px
+    width: 90%
+    border-collapse: collapse
+    th,
+    td 
+      border: solid black 1px 
+      padding: 5px
+    td 
+      text-align: center 
+    .event 
+      color: red
+
+.titles 
+  text-decoration: underline
+
+.important 
+  color: red
+
+#earbuds 
+  li
+    color: red
+
 #up-button 
   display: none
   position: fixed
@@ -98,6 +127,10 @@ header
     body 
         padding: 0
         margin: 0
+
+    .center-heading 
+      text-align: center 
+
     header 
         h1
             font-size: 2.5em
