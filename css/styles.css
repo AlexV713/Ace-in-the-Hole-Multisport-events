@@ -133,6 +133,39 @@ table .event {
   color: red;
 }
 
+.info-section {
+  cursor: pointer;
+}
+
+.info-section:hover {
+  color: red;
+}
+
+.info-section:before {
+  border: 0.5em solid;
+  border-color: transparent transparent transparent black;
+  content: '';
+  display: inline-block;
+  height: 0;
+  margin-right: 0.5em;
+  vertical-align: middle;
+  width: 0;
+}
+
+.info-section:hover:before {
+  border-left-color: red;
+}
+
+.info-section.open:before {
+  border-color: black transparent transparent transparent;
+  border-bottom-width: 0;
+}
+
+.info-section.open:hover:before {
+  border-left-color: transparent;
+  border-top-color: red;
+}
+
 .titles {
   text-decoration: underline;
 }

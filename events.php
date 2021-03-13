@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Open+Sans&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/cf72e27b3d.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="scripts.js"></script>
     <title>Events Information</title>
 </head>
@@ -78,7 +79,7 @@
 
             <h3 class="info-section">Cost Includes</h3>
 
-            <ul>
+            <ul class="hide">
                 <li>Food & Beer</li>
                 <li>Access to the weekends's live entertainment & Fitness Expo</li>
                 <li>Commemorative Finisher medal</li>
@@ -86,11 +87,11 @@
                 <li>Ace in the Hole Multisport Weekend Tech Shirt</li>
                 <li>Post-event party & entertainment</li>
             </ul>
-            <p><i>Tech shirts guaranteed to pre-registered participants only</i></p>
+            <p class="hide"><i>Tech shirts guaranteed to pre-registered participants only</i></p>
 
             <h3 class="info-section">Course Details</h3>
 
-            <p><strong><span class="titles">Long Course SWIM - 1.2mi:</span></strong><br> Participants will make two
+            <p class="hide"><strong><span class="titles">Long Course SWIM - 1.2mi:</span></strong><br> Participants will make two
                 counter-clockwise loops. Large
                 buoys will mark
                 the turn points. Kayakers will be positioned on the water to support the swimmers. Medical support
@@ -156,7 +157,7 @@
 
             <h3 class="info-section">What to Bring</h3>
 
-            <p>Watch the weather closely. The show goes on no matter what the weather is doing.
+            <p class="hide">Watch the weather closely. The show goes on no matter what the weather is doing.
                 <br><br>You must wear your chip timing piece during the entire event. You will be given a band that will
                 hold your chip timing
                 piece around your ankle throughout the entire event. Be sure that it is snapped tightly. Be sure to have
@@ -183,16 +184,16 @@
 
             <h3 class="info-section">Packet Pick Up</h3>
 
-            <p><span class="important">All packet pick up will occur at Why Worry Racing, 123 NW Everett, Portland
+            <p class="hide"><span class="important">All packet pick up will occur at Why Worry Racing, 123 NW Everett, Portland
                     OR. Packet pick up hours:
                     Thursday 8-5, Friday 9-noon. No day of event packet pick up.</span></p>
-            <p><strong>COURSE DETAILS
+            <p class="hide"><strong>COURSE DETAILS
                     WATER TEMPERATURE is expected to be between 62 & 66 degrees. The temperature will be taken on Friday
                     and the morning of the race. Wetsuits are recommended.</strong></p>
 
             <h3 class="info-section">FAQ's</h3>
 
-            <p><strong class="questions">What are the Rules?</strong><br> We currently adhere to the USAT
+            <p class="hide"><strong class="questions">What are the Rules?</strong><br> We currently adhere to the USAT
                 Rules for Triathlon &
                 Duathlon.
                 Important rules include no drafting, you must wear a helmet and music is ABSOLUTELY NOT allowed
@@ -213,7 +214,7 @@
                 the challenge of running. To accommodate the needs of our athletes while still assuring maximum
                 safety
                 and a fair, competitive environment, here is the arrangement that we can accommodate.</p>
-            <ul id="earbuds">
+            <ul id="earbuds" class="hide">
                 <li>If you chose to use a personal music device, you must always keep one ear open for instructions
                     so
                     only one ear-bud can be used at any time. In addition, if you opt to use music, you will not be
@@ -226,7 +227,7 @@
                 <li>We also request that if you chose to use a personal music device that you keep the volume to a
                     minimum to assure all instructions can be heard.</li>
             </ul>
-            <p><strong class="questions">Do I need to wear a wetsuit?</strong><br> No, you do not need to wear a
+            <p class="hide"><strong class="questions">Do I need to wear a wetsuit?</strong><br> No, you do not need to wear a
                 wetsuit.
                 Many will not
                 wear a

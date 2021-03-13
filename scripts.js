@@ -1,3 +1,12 @@
+// jQuery 
+$(document).ready(function(){
+  $(".hide").hide();
+
+  $(".info-section").on("click", function () {
+    $(this).toggleClass("open").next().slideToggle();
+  });
+});
+
 // Scroll Back Up Button
 window.onscroll = function() {scrollFunction()};
 
