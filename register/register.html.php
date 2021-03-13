@@ -9,6 +9,7 @@
 <link href="../css/styles.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/cf72e27b3d.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="../scripts.js"></script>
 <title>Register</title>
 </head>
