@@ -182,6 +182,16 @@ table .event {
   color: red;
 }
 
+input {
+  width: 45%;
+  height: 2em;
+}
+
+select {
+  width: 45.5%;
+  height: 2em;
+}
+
 #up-button {
   display: none;
   position: fixed;
@@ -197,8 +207,28 @@ table .event {
   font-size: 1.2em;
 }
 
+#submit {
+  border: solid black 2px;
+  border-radius: 25px;
+  background-color: white;
+  width: 5em;
+}
+
+#submit:active {
+  background-color: red;
+  color: white;
+}
+
 #up-button:hover {
   opacity: 0.5;
+}
+
+#honeypot {
+  display: none;
+}
+
+input[type=radio] {
+  width: 1em;
 }
 
 /* Desktop Stylesheets */

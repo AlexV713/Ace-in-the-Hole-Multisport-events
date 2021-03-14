@@ -34,10 +34,10 @@
 
                     <form method="post" action=" ">
                         <label for="fullname">Full Name:</label><br>
-                        <input type="text" id="fullname" name="fullname" class="register-inputs" required><br>
+                        <input type="text" id="fullname" name="fullname" class="register-inputs" required><br><br>
 
                         <label for="age">Age:</label><br>
-                        <input type="number" id="age" name="age" class="register-inputs" required><br>
+                        <input type="number" id="age" name="age" class="register-inputs" required><br><br>
 
                         <label for="genders">Gender:</label><br>
                         <select id="genders" name="genders" class="register-inputs-selects">
@@ -45,20 +45,20 @@
                             <option value="female">Female</option>
                             <option value="nonBinary">Non-binary</option>
                             <option value="other">Other</option>
-                        </select><br>
+                        </select><br><br>
 
                         <label for="role">Choose your role:</label><br>
                         <select id="role" name="roles" class="register-inputs-selects">
                             <option value="athlete">Athlete</option>
                             <option value="volunteer">Volunteer</option>
-                        </select><br>
+                        </select><br><br>
 
 
                         <label for="email">Email:</label><br>
                         <input type="text" id="email" name="email" class="register-inputs" required><br><br>
 
                         <label for="ename">Emergency Contact Name:</label><br>
-                        <input type="text" id="ename" name="ename" class="register-inputs" required><br>
+                        <input type="text" id="ename" name="ename" class="register-inputs" required><br><br>
 
                         <label for="ephone">Emergency Contact Phone:</label><br>
                         <input type="tel" id="ephone" name="ephone" class="register-inputs" required><br><br>
@@ -79,7 +79,7 @@
                         </select><br><br>
 
                         <label for="accommodations">Any special accommodations needed:</label><br>
-                        <textarea rows="10" cols="40" name="accommodations" id="accommodations"></textarea><br><br>
+                        <textarea rows="12" cols="63" name="accommodations" id="accommodations"></textarea><br><br>
                         <input id="submit" type="submit" value="Submit">
 
                     </form>
@@ -87,7 +87,7 @@
                 </div>
 
                 <div id="fees">
-                    <h2>Registration Fees</h2>
+                    <h3>Registration Fees</h3>
                     <table>
                         <tbody>
                             <tr>
