@@ -3,6 +3,8 @@ html
   
 body 
   font-family: 'Open Sans', sans-serif
+  padding: 0
+  margin: 0
 
 p,
 ul
@@ -10,9 +12,37 @@ ul
 
 header 
     font-family: 'Noto Sans KR', sans-serif
-    a 
-        text-decoration: none 
-        color: #292929
+    #desktop-nav 
+      display: none
+    #mobile-nav
+      display: block
+      #front 
+        display: flex
+        justify-content: flex-end
+        align-items: center
+        #logo 
+          margin-right: auto 
+          padding-left: 1em
+          color: black 
+          text-decoration: none 
+        #toggle 
+          color: black
+        .fa-bars 
+          margin-left: auto 
+          padding-right: 1em 
+          font-size: 2em
+      #mobile-links
+        display: none
+        list-style-type: none
+        font-size: 1.3em
+        margin: 0
+        padding: 0 0 0 1em
+        li
+          margin-bottom: 1em 
+          a 
+            color: black
+            text-decoration: none 
+      
 
 #slideshow 
   width: 55em

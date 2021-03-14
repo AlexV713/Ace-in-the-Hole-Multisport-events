@@ -1,10 +1,6 @@
 <?php define('BASE_URL', '/repositories/Ace-in-the-Hole-Multisport-events/'); ?>
 
 <header>
-    <a href="javascript:void(0);" class="icon" onclick="dropLinks()">
-        <i class="fas fa-bars"></i>
-    </a>
-
     <nav id="desktop-nav">
         <a href="<?php echo BASE_URL; ?>index.php" class="logo">
             <h1>Ace in The Hole</h1>
@@ -19,14 +15,19 @@
     </nav>
 
     <nav id="mobile-nav">
-        <a href="<?php echo BASE_URL; ?>index.php" class="logo">
-            <img src="<?php echo BASE_URL; ?>images/logo2.jpg" alt="ace" class="logo">
-        </a>
-        <div id="links">
-            <a href="<?php echo BASE_URL; ?>index.php">Home</a>
-            <a href="<?php echo BASE_URL; ?>events.php">Events Information</a>
-            <a href="<?php echo BASE_URL; ?>register">Register</a>
-            <a href="<?php echo BASE_URL; ?>contact">Contact</a>
+        <div id="front">
+        <a href="<?php echo BASE_URL; ?>index.php" id="logo">
+            <h1>Ace in The Hole</h1>
+            </a>
+            <a href="#" id="toggle">
+                <i class="fas fa-bars"></i>
+            </a>
         </div>
+        <ul id="mobile-links">
+            <li><a href="<?php echo BASE_URL; ?>index.php">Home</a></li>
+            <li><a href="<?php echo BASE_URL; ?>events.php">About</a></li>
+            <li><a href="<?php echo BASE_URL; ?>register">Service</a></li>
+            <li><a href="<?php echo BASE_URL; ?>contact">Contact</a></li>
+        </ul>
     </nav>
 </header>

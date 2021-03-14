@@ -5,6 +5,11 @@ $(document).ready(function(){
   $(".info-section").on("click", function () {
     $(this).toggleClass("open").next().slideToggle();
   });
+
+  $("#toggle").on("click", function() {
+    $("#mobile-links").toggle(1000);  
+ });
+ 
 });
 
 // Scroll Back Up Button
