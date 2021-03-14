@@ -24,7 +24,7 @@
 
     <main>
 
-        <div id="wrapper">
+        <div id="home-wrapper">
 
             <div id="grid-items">
 

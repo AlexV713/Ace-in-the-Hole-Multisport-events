@@ -25,8 +25,8 @@
         </div>
         <ul id="mobile-links">
             <li><a href="<?php echo BASE_URL; ?>index.php">Home</a></li>
-            <li><a href="<?php echo BASE_URL; ?>events.php">About</a></li>
-            <li><a href="<?php echo BASE_URL; ?>register">Service</a></li>
+            <li><a href="<?php echo BASE_URL; ?>events.php">Information</a></li>
+            <li><a href="<?php echo BASE_URL; ?>register">Register</a></li>
             <li><a href="<?php echo BASE_URL; ?>contact">Contact</a></li>
         </ul>
     </nav>

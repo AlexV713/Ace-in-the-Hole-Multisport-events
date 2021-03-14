@@ -36,7 +36,7 @@
                     <input type="text" id="email" name="email" class="contact-inputs" required><br><br>
 
                     <label for="question">Question:</label><br>
-                    <textarea rows="10" cols="63" name="question" id="question" required></textarea><br><br>
+                    <textarea rows="10" cols="45" name="question" id="question" required></textarea><br><br>
 
                     <label for="athlete">Are you a:</label><br>
                     <input type="radio" id="athlete" name="person" value="athlete">

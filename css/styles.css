@@ -6,6 +6,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 
 p,
@@ -71,7 +72,7 @@ header #mobile-nav #mobile-links li a {
   text-decoration: none;
 }
 
-#grid-items {
+#home-wrapper #grid-items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -87,13 +88,18 @@ header #mobile-nav #mobile-links li a {
           flex-direction: column;
 }
 
-#grid-items #text {
+#home-wrapper #grid-items #text {
   padding-left: 1.5em;
   padding-right: 1.5em;
 }
 
-#grid-items #socialmedia-feed {
+#home-wrapper #socialmedia-feed {
   width: 21em;
+}
+
+#wrapper {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 
 #slideshow {
@@ -194,12 +200,17 @@ header #mobile-nav #mobile-links li a {
   }
 }
 
+#fees {
+  display: none;
+}
+
 table {
   table-layout: fixed;
   margin: auto;
   border: solid black 2px;
-  width: 90%;
+  width: 100%;
   border-collapse: collapse;
+  word-wrap: break-word;
 }
 
 table th,
@@ -262,28 +273,13 @@ table .event {
 }
 
 input {
-  width: 45%;
+  width: 95%;
   height: 2em;
 }
 
 select {
-  width: 45.5%;
+  width: 96%;
   height: 2em;
-}
-
-#up-button {
-  display: none;
-  position: fixed;
-  bottom: 2em;
-  right: 3em;
-  z-index: 99;
-  border: none;
-  outline: none;
-  color: #000000;
-  cursor: pointer;
-  padding: 1em;
-  border-radius: 50%;
-  font-size: 1.2em;
 }
 
 #submit {
@@ -308,6 +304,21 @@ select {
 
 input[type=radio] {
   width: 1em;
+}
+
+#up-button {
+  display: none;
+  position: fixed;
+  bottom: 2em;
+  right: 3em;
+  z-index: 99;
+  border: none;
+  outline: none;
+  color: #000000;
+  cursor: pointer;
+  padding: 1em;
+  border-radius: 50%;
+  font-size: 1.2em;
 }
 
 footer {
@@ -347,7 +358,7 @@ footer {
   header #mobile-nav {
     display: none;
   }
-  #wrapper {
+  #home-wrapper {
     width: 70em;
     display: block;
     margin: 1em auto auto auto;

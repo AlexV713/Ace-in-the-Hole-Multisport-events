@@ -79,7 +79,7 @@
                         </select><br><br>
 
                         <label for="accommodations">Any special accommodations needed:</label><br>
-                        <textarea rows="12" cols="63" name="accommodations" id="accommodations"></textarea><br><br>
+                        <textarea rows="12" cols="44" name="accommodations" id="accommodations"></textarea><br><br>
                         <input id="submit" type="submit" value="Submit">
 
                     </form>
@@ -100,13 +100,13 @@
                                 <th>Sunday</th>
                             </tr>
                             <tr>
-                                <td>Long Course Triathlon</td>
-                                <td>Olympic Triathlon</td>
-                                <td>10K</td>
-                                <td>Half Marathon</td>
-                                <td>Sprint Triathlon</td>
-                                <td>Try-a-Tri</td>
-                                <td>Splash n' Dash(kids)</td>
+                                <td class="event">Long Course Triathlon</td>
+                                <td class="event">Olympic Triathlon</td>
+                                <td class="event">10K</td>
+                                <td class="event">Half Marathon</td>
+                                <td class="event">Sprint Triathlon</td>
+                                <td class="event">Try-a-Tri</td>
+                                <td class="event">Splash n' Dash(kids)</td>
                             </tr>
                             <tr>
                                 <td>$240</td>
