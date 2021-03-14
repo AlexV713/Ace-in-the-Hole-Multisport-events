@@ -71,17 +71,45 @@ header #mobile-nav #mobile-links li a {
   text-decoration: none;
 }
 
+#grid-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#grid-items #text {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+#grid-items #socialmedia-feed {
+  width: 21em;
+}
+
 #slideshow {
-  width: 55em;
-  height: 35em;
+  width: 24em;
+  height: 15em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
   background-color: #000000;
   border: solid #FFFFFF 1px;
 }
 
 #slideshow img {
-  width: 55em;
-  height: 35em;
+  width: 24em;
+  height: 15em;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -280,6 +308,12 @@ select {
 
 input[type=radio] {
   width: 1em;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8em;
+  font-style: italic;
 }
 
 /* Desktop Stylesheets */
