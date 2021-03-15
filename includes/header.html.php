@@ -2,10 +2,12 @@
 
 <header>
     <nav id="desktop-nav">
-        <a href="<?php echo BASE_URL; ?>index.php" class="logo">
-            <h1>Ace in The Hole</h1>
-            <h3>Multisport Events</h3>
-        </a>
+        <div id="desktop-logo">
+            <a href="<?php echo BASE_URL; ?>index.php">
+                <h1>Ace in The Hole</h1>
+                <h3>Multisport Events</h3>
+            </a>
+        </div>
         <div id="desktop-links">
             <a href="<?php echo BASE_URL; ?>index.php">Home</a>
             <a href="<?php echo BASE_URL; ?>events.php">Information</a>
@@ -16,8 +18,8 @@
 
     <nav id="mobile-nav">
         <div id="front">
-        <a href="<?php echo BASE_URL; ?>index.php" id="logo">
-            <h1>Ace in The Hole</h1>
+            <a href="<?php echo BASE_URL; ?>index.php" id="logo">
+                <h1>Ace in The Hole</h1>
             </a>
             <a href="#" id="toggle">
                 <i class="fas fa-bars"></i>

@@ -15,6 +15,9 @@ header
     font-family: 'Noto Sans KR', sans-serif
     #desktop-nav 
       display: none
+      a 
+        color: black 
+        text-decoration: none 
     #mobile-nav
       display: block
       #front 
@@ -136,7 +139,6 @@ header
   display: none 
 
 table 
-    table-layout: fixed
     margin: auto
     border: solid black 2px
     width: 100%
@@ -192,6 +194,9 @@ input
   width: 95%
   height: 2em
 
+input[type=radio] 
+  width: 1em
+
 select 
   width: 96%
   height: 2em
@@ -212,8 +217,6 @@ select
 #honeypot 
   display: none
 
-input[type=radio] 
-  width: 1em
 
 #up-button 
   display: none
@@ -240,36 +243,52 @@ footer
         padding: 0
         margin: 0
 
-    .center-heading 
-      text-align: center 
-
     header 
-        h1
-            font-size: 2.5em
-        h3 
-            margin-top: -1.1em
-            font-size: 1.7em
-        .icon 
-            display: none
-        #desktop-nav 
-            text-align: center
-            #desktop-links
-                word-spacing: 1.5em
-            #desktop-links a:active
-                color: #808080
-        #mobile-nav 
-            display: none 
+      text-align: center
+      h1
+        font-size: 2.5em
+      h1:hover,
+      h3:hover
+        color: red
+      h3 
+        margin-top: -1.1em
+        font-size: 1.7em
+      .icon 
+        display: none
+      #desktop-nav 
+        display: block 
+      #desktop-logo 
+        display: inline-block
+      #desktop-links
+        word-spacing: 1.5em
+      #desktop-links a:active
+        color: #808080
+      #mobile-nav 
+        display: none 
 
     #home-wrapper 
         width: 70em 
         display: block 
         margin: 1em auto auto auto
+        #grid-items 
+          display: flex 
+          justify-content: center 
+          align-items: flex-start
+          flex-direction: row
+          gap: 1em
 
-    #grid-items 
-        display: flex 
-        justify-content: center 
-        align-items: flex-start
-        gap: 1em
+    #wrapper 
+      width: 70%
+      display: block
+      margin: 1em auto auto auto
+
+    #slideshow 
+      width: 41em
+      height: 28em
+
+    #slideshow img 
+      width: 41em
+      height: 28em
 
     #block2 
         #socialmedia-feed,
@@ -277,6 +296,17 @@ footer
             width: 25em
         #weather-feed 
             width: 21.5em
+
+    table 
+      width: 70%
+
+    input 
+      width: 45%
+      height: 2em
+  
+    select 
+      width: 45.5%
+      height: 2em
 
     footer 
         text-align: center 

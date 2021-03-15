@@ -38,7 +38,8 @@
                     <label for="question">Question:</label><br>
                     <textarea rows="10" cols="45" name="question" id="question" required></textarea><br><br>
 
-                    <label for="athlete">Are you a:</label><br>
+                    <p>Are you an?</p>
+                    
                     <input type="radio" id="athlete" name="person" value="athlete">
                     <label for="athlete">Athlete</label><br>
                     <input type="radio" id="volunteer" name="person" value="volunteer">

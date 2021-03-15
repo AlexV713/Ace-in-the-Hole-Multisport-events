@@ -30,7 +30,7 @@
 
                 <div id="register">
 
-                    <h2>Register for an Event!</h2>
+                    <h2>Register Here!</h2>
 
                     <form method="post" action=" ">
                         <label for="fullname">Full Name:</label><br>
@@ -79,7 +79,7 @@
                         </select><br><br>
 
                         <label for="accommodations">Any special accommodations needed:</label><br>
-                        <textarea rows="12" cols="44" name="accommodations" id="accommodations"></textarea><br><br>
+                        <textarea rows="12" cols="45" name="accommodations" id="accommodations"></textarea><br><br>
                         <input id="submit" type="submit" value="Submit">
 
                     </form>

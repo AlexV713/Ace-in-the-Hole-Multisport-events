@@ -23,7 +23,7 @@
 
         <div id="wrapper">
 
-            <h2 class="center-heading">Events Information</h2>
+            <h2>Events Information</h2>
 
             <h3>Saturday Events (June 20th)</h3>
 
