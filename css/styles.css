@@ -152,7 +152,7 @@ header #mobile-nav #mobile-links li a {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  background: #0000008a;
+  background: #cfcfcf75;
   color: #FF0000;
   font-weight: bold;
   font-size: 2em;
@@ -168,7 +168,7 @@ header #mobile-nav #mobile-links li a {
 
 .prev:active,
 .next:active {
-  background-color: #cfcfcf;
+  background-color: black;
 }
 
 .fade {
@@ -388,7 +388,6 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    gap: 1em;
   }
   #wrapper {
     width: 70%;
@@ -396,11 +395,11 @@ footer {
     margin: 1em auto auto auto;
   }
   #slideshow {
-    width: 41em;
+    width: 43em;
     height: 28em;
   }
   #slideshow img {
-    width: 41em;
+    width: 43em;
     height: 28em;
   }
   #block2 #socialmedia-feed,
