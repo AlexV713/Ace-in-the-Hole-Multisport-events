@@ -2,7 +2,7 @@
 
 <div id="slideshow">
 
-    <div class="mySlides fade" id="front">
+    <div class="mySlides fade" id="front-image">
         <div class="number">1 / <?php echo $pics; ?></div>
         <img src="images/ace1.jpg" alt="swimming triathlon">
     </div>
