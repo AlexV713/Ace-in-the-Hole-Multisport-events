@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head></head>
+<head>
 <meta charset="UTF-8">
-<meta name="description"
-    content="Ace in the Hole Multisport Events is proud to offer running and triathlon events to athletes of all shapes and sizes, national origins, gender identifications and cultural backgrounds">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="../css/styles.css" rel="stylesheet" type="text/css">
+    <meta name="description"
+        content="Ace in the Hole Multisport Events is proud to offer running and triathlon events to athletes of all shapes and sizes, national origins, gender identifications and cultural backgrounds">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/styles.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Open+Sans&display=swap" rel="stylesheet"> 
-<script src="https://kit.fontawesome.com/cf72e27b3d.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/cf72e27b3d.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="../scripts.js"></script>
-<title>Register</title>
+    <script src="../scripts.js"></script>
+    <title>Register</title>
 </head>
 
 <body>
