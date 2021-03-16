@@ -331,6 +331,29 @@ footer {
   font-style: italic;
 }
 
+/* Tablet Stylesheets */
+@media only screen and (min-width: 480px) {
+  #slideshow {
+    width: 43em;
+    height: 28em;
+  }
+  #slideshow img {
+    width: 43em;
+    height: 28em;
+  }
+  #home-wrapper #grid-items #text {
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+  }
+  #home-wrapper #socialmedia-feed {
+    width: 21em;
+  }
+  #wrapper {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}
+
 /* Desktop Stylesheets */
 @media only screen and (min-width: 1025px) {
   body {
