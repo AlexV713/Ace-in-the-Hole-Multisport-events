@@ -1,4 +1,4 @@
-<?php define('BASE_URL', '/repositories/Ace-in-the-Hole-Multisport-events/'); ?>
+<?php define('BASE_URL', '/projects/Ace-in-the-Hole-Multisport-Events/'); ?>
 
 <header>
     <nav id="desktop-nav">
